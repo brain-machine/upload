@@ -1,0 +1,24 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "Microservice for upload",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "node ./bin/www.js"
+  },
+  "keywords": [
+    "Microservice",
+    "Upload"
+  ],
+  "author": "Renan Johannsen de Paula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.3"
+  }
+}
