@@ -1,6 +1,7 @@
 var app = require('../app.js')
-  , env = require('../config/env').api;
+  , env = require('../config/env');
 
-var server = app.listen(env.PORT, function() {
-  console.log('Server listening on port ' + server.address().port);
+var server = app.listen(env.api.PORT, function() {
+  console.log('Server on Port: ' + server.address().port);
+  console.log('Upload Path: ' + env.upload.PATH);
 });

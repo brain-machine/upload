@@ -1,8 +1,8 @@
 'use strict';
 
 var env = {
-    api: { PORT: '3000' },
-    upload: { PATH: '/uploads/' }
+    api: { PORT: process.env.UPLOAD_PORT || '3000' },
+    upload: { PATH: process.env.UPLOAD_PATH || '/uploads/' }
 };
 
 module.exports = {

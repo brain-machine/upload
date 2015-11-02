@@ -14,7 +14,7 @@
     "Upload"
   ],
   "author": "Renan Johannsen de Paula",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
     "compression": "^1.6.0",
