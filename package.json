@@ -4,6 +4,7 @@
   "description": "Microservice for upload",
   "main": "app.js",
   "scripts": {
+    "init": "npm install && sudo apt-get install imagemagick",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm install",
     "start": "node ./bin/www.js"
@@ -19,6 +20,8 @@
     "compression": "^1.6.0",
     "cors": "^2.7.1",
     "express": "^4.13.3",
-    "mongoose": "^4.2.3"
+    "gm": "^1.21.1",
+    "mongoose": "^4.2.3",
+    "multer": "^1.1.0"
   }
 }

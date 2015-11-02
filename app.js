@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(compress());
 app.use(cors());
 
-// config MongoDB using mongoose
-require('./config/db-config');
+// Config Routes
+app.use('/image', require('./routes/image-route'));
 
 module.exports = app;
